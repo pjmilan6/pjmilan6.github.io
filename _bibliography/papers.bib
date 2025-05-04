@@ -3,113 +3,43 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{milan_2022,
+abbr={Front. Phys.},
+author={Milan, Petro Junior  and Rong, Hongqian  and Michaud, Craig  and Layad, Naoufal  and Liu, Zhengchun  and Coffee, Ryan },
+title={Enabling Real-Time Adaptation of Machine Learning Models at X-Ray Free Electron Laser Facilities with High-Speed Training Optimized Computational Hardware},
+journal={Frontiers in Physics},
+volume={Volume 10 - 2022},
+year={2022},
+url={https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2022.958120},
+doi={10.3389/fphy.2022.958120},
+issn={2296-424X},
+abstract={The emergence of novel computational hardware is enabling a new paradigm for rapid machine learning model training. For the Department of Energy's major research facilities, this developing technology will enable a highly adaptive approach to experimental sciences. In this manuscript we present the per-epoch and end-to-end training times for an example of a streaming diagnostic that is planned for the upcoming high-repetition rate x-ray Free Electron Laser, the Linac Coherent Light Source-II. We explore the parameter space of batch size and data parallel training across multiple Graphics Processing Units and Reconfigurable Dataflow Units. We show the landscape of training times with a goal of full model retraining in under 15 min. Although a full from scratch retraining of a model may not be required in all cases, we nevertheless present an example of the application of emerging computational hardware for adapting machine learning models to changing environments in real-time, during streaming data acquisition, at the rates expected for the data fire hoses of accelerator-based user facilities.}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{milan_2021_jcp,
+abbr={JCP},
+title = {Deep-Learning Accelerated Calculation of Real-Fluid Properties in Numerical Simulation of Complex Flowfields},
+journal = {Journal of Computational Physics},
+volume = {444},
+pages = {110567},
+year = {2021},
+issn = {0021-9991},
+doi = {https://doi.org/10.1016/j.jcp.2021.110567},
+url = {https://www.sciencedirect.com/science/article/pii/S0021999121004629},
+author = {Petro Junior Milan and Jean-Pierre Hickey and Xingjian Wang and Vigor Yang},
+keywords = {Real-fluid properties, Deep learning, Numerical simulations, Supercritical flows, Swirl injector flows, Counterflow diffusion flames},
+abstract = {A deep-learning based approach is developed for efficient evaluation of thermophysical properties in numerical simulation of complex real-fluid flows. The work enables a significant improvement of computational efficiency by replacing direct calculation of the equation of state with a deep feedforward neural network with appropriate boundary information (DFNN-BC). The proposed method can be coupled to a flow solver in a robust manner. Depending on the numerical formulation of the flow solver, the neural network takes in either the primitive or conservative variables, including the chemical composition of the system, and calculates all relevant fluid properties for the subsequent routines in the solver. Two test problems are employed to validate the proposed methodology. The first uses a preconditioning scheme with dual-time integration for the simulation of swirl rocket injector flow dynamics under supercritical conditions. The second uses a conservative-variable based formulation for the simulation of laminar counterflow diffusion flames for cryogenic combustion. A parametric analysis is performed to optimize the numbers of hidden layers and neurons per hidden layer. The computational accuracy, efficiency, and memory requirements of the neural network are examined. The DFNN-BC model accelerates the evaluation of real-fluid properties by a factor of 2.43 and 3.7 for the two test problems, respectively, and the overall flowfield simulation by 1.5 and 2.3, respectively. In addition, the memory usage is reduced by up to five orders of magnitude in comparison with the table look-up method.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{milan_2020_aas,
+abbr={A&S},
+author  = {Petro Junior Milan and Roberto Torelli and Bethany Lusch and Gina M. Magnotti},
+title   = {Data-Driven Model Reduction of Multiphase Flow in a Single-Hole Automotive Injector},
+journal = {Atomization and Sprays},
+issn    = {1044-5110},
+year    = {2020},
+doi     = {10.1615/AtomizSpr.2020034830},
+volume  = {30},
+number  = {6},
+pages   = {401--429}
 }
