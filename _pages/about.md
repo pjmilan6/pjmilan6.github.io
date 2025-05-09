@@ -2,14 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: AI Engineer. San Francisco Bay Area. 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_petro.jpg
   image_circular: true # crops the image to make it circular
-  more_info: >
-    <p style="text-align: center;">San Francisco Bay Area</p>
+  more_info: 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -20,13 +19,11 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+👋 Hello! 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm a principal AI engineer at [SambaNova Systems](https://sambanova.ai/), where I work closely with customers to develop large language model (LLM) applications across domains using open-source models like Llama, DeepSeek, and E5 large, all running on SambaNova's latest AI chip, the SN40L. My expertise spans **Generative AI**, **Enterprise AI**, and **AI for Science**. I earned a PhD in Aerospace Engineering and an MS in Computational Science and Engineering from the [Georgia Institute of Technology](https://www.gatech.edu/) in 2021, where I applied deep learning to accelerate simulations of fluid flow and combustion in rocket engines. I previously interned twice at [Argonne National Laboratory](https://www.anl.gov()), contributing to AI-based surrogate modeling of diesel engines. In 2023, I was selected as one of 81 outstanding early-career engineers nationwide to attend the prestigious U.S. Frontiers of Engineering symposium, organized by the [National Academy of Engineering](https://www.nae.edu/).
