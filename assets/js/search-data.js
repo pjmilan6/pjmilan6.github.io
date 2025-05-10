@@ -38,12 +38,7 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-tutorial-programming-novel-ai-accelerators-for-scientific-computing-in-collaboration-with-argonne-national-laboratory-was-accepted-for-isc-high-performance-and-will-be-presented-in-hamburg-germany-on-june-13-2025",
+      },{id: "news-our-tutorial-programming-novel-ai-accelerators-for-scientific-computing-in-collaboration-with-argonne-national-laboratory-was-accepted-for-isc-high-performance-and-will-be-presented-in-hamburg-germany-on-june-13-2025",
           title: 'Our tutorial, Programming Novel AI Accelerators for Scientific Computing, in collaboration with Argonne...',
           description: "",
           section: "News",},{id: "projects-project-1",
