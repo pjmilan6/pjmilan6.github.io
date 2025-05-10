@@ -2,13 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: AI Engineer. San Francisco Bay Area. 
+subtitle: AI Engineer. San Francisco Bay Area.
 
 profile:
   align: right
   image: prof_pic_petro.jpg
   image_circular: true # crops the image to make it circular
-  more_info: 
+  more_info:
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -24,6 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-👋 Hello! 
+👋 Hello!
 
-I'm a principal AI engineer at [SambaNova Systems](https://sambanova.ai/), where I work closely with customers to develop large language model (LLM) applications across domains using open-source models like Llama, DeepSeek, and E5 large — all running on SambaNova's latest AI chip, the SN40L. My expertise spans **Generative AI**, **Enterprise AI**, and **AI for Science**. I earned a PhD in Aerospace Engineering and an MS in Computational Science and Engineering from the [Georgia Institute of Technology](https://www.gatech.edu/) in 2021, where I applied deep learning to accelerate simulations of fluid flow and combustion in rocket engines. I previously completed two research internships at [Argonne National Laboratory](https://www.anl.gov()), where I worked on AI-based surrogate models for diesel engines. In 2023, I was selected as one of 81 outstanding early-career engineers nationwide to attend the prestigious U.S. Frontiers of Engineering symposium, organized by the [National Academy of Engineering](https://www.nae.edu/).
+I'm a principal AI engineer at [SambaNova Systems](https://sambanova.ai/), where I work closely with customers to develop large language model (LLM) applications across domains using open-source models like Llama, DeepSeek, and E5 large — all running on SambaNova's latest AI chip, the SN40L. My expertise spans **Generative AI**, **Enterprise AI**, and **AI for Science**. I earned a PhD in Aerospace Engineering and an MS in Computational Science and Engineering from the [Georgia Institute of Technology](https://www.gatech.edu/) in 2021, where I applied deep learning to accelerate simulations of fluid flow and combustion in rocket engines. I previously completed two research internships at [Argonne National Laboratory](<https://www.anl.gov()>), where I worked on AI-based surrogate models for diesel engines. In 2023, I was selected as one of 81 outstanding early-career engineers nationwide to attend the prestigious U.S. Frontiers of Engineering symposium, organized by the [National Academy of Engineering](https://www.nae.edu/).
